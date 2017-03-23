@@ -1,0 +1,487 @@
+16/09/08 11:43:46.718 PM UCM:1160 5 ERROR VPN profile is empty 
+
+16/09/08 11:47:25.578 PM UCM:1208 5 ERROR VPN profile is empty 
+
+29/09/08 08:20:02.796 AM UCM:1204 5 ERROR VPN profile is empty 
+
+30/09/08 08:04:51.460 AM UCM:1228 5 ERROR VPN profile is empty 
+
+01/10/08 08:19:27.567 AM UCM:1272 7 ERROR VPN profile is empty 
+
+03/10/08 07:59:17.208 AM UCM:1236 3 ERROR VPN profile is empty 
+
+03/10/08 02:49:04.808 PM UCM:1264 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+06/10/08 08:12:47.842 AM UCM:1296 10 ERROR VPN profile is empty 
+
+07/10/08 08:10:40.013 AM UCM:1300 3 ERROR VPN profile is empty 
+
+07/10/08 01:59:49.184 PM UCM:1236 5 ERROR VPN profile is empty 
+
+08/10/08 08:03:19.684 AM UCM:1260 3 ERROR VPN profile is empty 
+
+09/10/08 08:05:06.958 AM UCM:1284 8 ERROR VPN profile is empty 
+
+10/10/08 08:11:02.879 AM UCM:1232 5 ERROR VPN profile is empty 
+
+13/10/08 08:06:58.006 AM UCM:1252 3 ERROR VPN profile is empty 
+
+14/10/08 08:06:55.512 AM UCM:1216 5 ERROR VPN profile is empty 
+
+15/10/08 08:11:19.287 AM UCM:1252 7 ERROR VPN profile is empty 
+
+16/10/08 08:24:10.230 AM UCM:1252 3 ERROR VPN profile is empty 
+
+17/10/08 07:58:12.107 AM UCM:1324 11 ERROR VPN profile is empty 
+
+20/10/08 08:06:56.656 AM UCM:1280 9 ERROR VPN profile is empty 
+
+21/10/08 08:09:25.075 AM UCM:1232 3 ERROR VPN profile is empty 
+
+22/10/08 08:09:27.828 AM UCM:1240 7 ERROR VPN profile is empty 
+
+23/10/08 08:02:48.252 AM UCM:1276 8 ERROR VPN profile is empty 
+
+24/10/08 08:02:34.932 AM UCM:1296 3 ERROR VPN profile is empty 
+
+27/10/08 08:04:21.504 AM UCM:1268 8 ERROR VPN profile is empty 
+
+28/10/08 08:14:34.178 AM UCM:1276 8 ERROR VPN profile is empty 
+
+29/10/08 08:04:35.401 AM UCM:1300 8 ERROR VPN profile is empty 
+
+30/10/08 08:03:28.138 AM UCM:1256 8 ERROR VPN profile is empty 
+
+31/10/08 08:11:50.744 AM UCM:1276 5 ERROR VPN profile is empty 
+
+03/11/08 08:12:47.937 AM UCM:1256 3 ERROR VPN profile is empty 
+
+04/11/08 08:06:59.036 AM UCM:1280 8 ERROR VPN profile is empty 
+
+05/11/08 08:03:55.443 AM UCM:1272 10 ERROR VPN profile is empty 
+
+06/11/08 08:11:37.052 AM UCM:1244 5 ERROR VPN profile is empty 
+
+06/11/08 03:10:36.765 PM UCM:1292 9 ERROR VPN profile is empty 
+
+07/11/08 08:04:21.524 AM UCM:1228 3 ERROR VPN profile is empty 
+
+10/11/08 08:06:50.612 AM UCM:1308 5 ERROR VPN profile is empty 
+
+11/11/08 08:03:51.774 AM UCM:1284 10 ERROR VPN profile is empty 
+
+12/11/08 08:00:35.588 AM UCM:1272 7 ERROR VPN profile is empty 
+
+13/11/08 08:02:45.118 AM :1380 1 ERROR Plugin instantiating exception: Exception has been thrown by the target of an invocation.
+   Stack trace:    at System.RuntimeMethodHandle._InvokeConstructor(Object[] args, SignatureStruct& signature, IntPtr declaringType)
+   at System.RuntimeMethodHandle.InvokeConstructor(Object[] args, SignatureStruct signature, RuntimeTypeHandle declaringType)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at SmithMicro.Presentation.PluginManager`1.LoadPluginAssembly(String pluginRegistryKeyName)
+   Has inner exception.
+Exception has been thrown by the target of an invocation.
+   Stack trace:    at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at SmithMicro.Presentation.ControlSystemOverview.InitializeSecurityDevices()
+   at SmithMicro.Presentation.ControlSystemOverview..ctor()
+   at SmithMicro.Presentation.SystemOverviewPlugin..ctor()
+   Has inner exception.
+The process cannot access the file 'C:\Documents and Settings\Administrator\Application Data\Dell\Dell ControlPoint\Security Manager\SecurityDeviceInfoData\SecurityDevicesInfo.txt' because it is being used by another process.
+   Stack trace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at SecurityDeviceInfoNS.SecurityDevices.GetInstalledDevicesFromFile()
+   at SecurityDeviceInfoNS.SecurityDevices.RequestInstalledDevices()
+ 
+
+13/11/08 08:03:04.533 AM UCM:1248 3 ERROR VPN profile is empty 
+
+14/11/08 08:01:07.642 AM UCM:1280 3 ERROR VPN profile is empty 
+
+17/11/08 08:02:13.758 AM UCM:1280 3 ERROR VPN profile is empty 
+
+18/11/08 08:16:18.989 AM UCM:1248 3 ERROR VPN profile is empty 
+
+18/11/08 12:03:47.935 PM UCM:1224 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+19/11/08 08:02:14.601 AM UCM:1284 10 ERROR VPN profile is empty 
+
+20/11/08 08:01:53.848 AM UCM:1280 9 ERROR VPN profile is empty 
+
+21/11/08 08:04:30.745 AM UCM:1232 8 ERROR VPN profile is empty 
+
+24/11/08 07:59:48.478 AM UCM:1232 7 ERROR VPN profile is empty 
+
+24/11/08 12:14:14.664 PM UCM:1204 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+25/11/08 08:08:48.336 AM UCM:888 3 ERROR VPN profile is empty 
+
+26/11/08 08:04:02.569 AM UCM:1296 3 ERROR VPN profile is empty 
+
+01/12/08 07:42:38.580 AM UCM:1424 7 ERROR VPN profile is empty 
+
+02/12/08 07:58:22.342 AM UCM:1256 8 ERROR VPN profile is empty 
+
+03/12/08 08:05:31.580 AM UCM:1248 8 ERROR VPN profile is empty 
+
+04/12/08 08:06:03.419 AM UCM:1260 5 ERROR VPN profile is empty 
+
+08/12/08 08:09:32.825 AM UCM:1240 8 ERROR VPN profile is empty 
+
+09/12/08 08:05:31.232 AM UCM:1276 10 ERROR VPN profile is empty 
+
+10/12/08 08:16:22.702 AM UCM:1300 9 ERROR VPN profile is empty 
+
+10/12/08 04:05:31.977 PM UCM:1308 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+11/12/08 08:02:07.856 AM UCM:1256 8 ERROR VPN profile is empty 
+
+12/12/08 08:08:18.337 AM UCM:1248 8 ERROR VPN profile is empty 
+
+15/12/08 08:06:16.176 AM UCM:1248 3 ERROR VPN profile is empty 
+
+16/12/08 08:17:07.062 AM UCM:1228 5 ERROR VPN profile is empty 
+
+17/12/08 08:05:38.551 AM UCM:1296 5 ERROR VPN profile is empty 
+
+18/12/08 08:10:05.795 AM UCM:1232 7 ERROR VPN profile is empty 
+
+19/12/08 08:11:03.663 AM UCM:1272 5 ERROR VPN profile is empty 
+
+22/12/08 08:01:06.152 AM UCM:1236 5 ERROR VPN profile is empty 
+
+23/12/08 08:15:15.482 AM UCM:1236 8 ERROR VPN profile is empty 
+
+02/01/09 07:56:50.224 AM UCM:1244 5 ERROR VPN profile is empty 
+
+02/01/09 09:37:30.201 AM UCM:1272 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+05/01/09 08:07:22.973 AM UCM:1232 8 ERROR VPN profile is empty 
+
+06/01/09 07:58:13.873 AM UCM:1252 8 ERROR VPN profile is empty 
+
+07/01/09 08:09:07.821 AM UCM:1284 7 ERROR VPN profile is empty 
+
+08/01/09 08:09:22.428 AM UCM:1216 6 ERROR VPN profile is empty 
+
+09/01/09 08:09:24.077 AM UCM:1252 3 ERROR VPN profile is empty 
+
+12/01/09 08:14:22.460 AM UCM:1272 3 ERROR VPN profile is empty 
+
+13/01/09 08:04:03.269 AM UCM:1216 5 ERROR VPN profile is empty 
+
+14/01/09 08:12:27.012 AM UCM:1244 8 ERROR VPN profile is empty 
+
+15/01/09 08:07:09.779 AM UCM:1276 8 ERROR VPN profile is empty 
+
+16/01/09 08:07:52.983 AM UCM:1360 12 ERROR VPN profile is empty 
+
+19/01/09 08:05:03.474 AM UCM:1304 10 ERROR VPN profile is empty 
+
+20/01/09 08:03:10.943 AM UCM:1324 9 ERROR VPN profile is empty 
+
+21/01/09 08:05:16.524 AM UCM:1252 8 ERROR VPN profile is empty 
+
+22/01/09 08:10:07.237 AM UCM:1332 10 ERROR VPN profile is empty 
+
+23/01/09 08:10:49.411 AM UCM:1204 5 ERROR VPN profile is empty 
+
+26/01/09 08:00:15.857 AM UCM:1280 3 ERROR VPN profile is empty 
+
+27/01/09 08:07:14.152 AM UCM:1272 5 ERROR VPN profile is empty 
+
+28/01/09 08:10:03.801 AM UCM:1284 3 ERROR VPN profile is empty 
+
+29/01/09 08:08:32.440 AM UCM:1328 3 ERROR VPN profile is empty 
+
+30/01/09 08:03:51.381 AM UCM:1208 3 ERROR VPN profile is empty 
+
+02/02/09 08:05:00.640 AM UCM:1184 5 ERROR VPN profile is empty 
+
+03/02/09 08:07:47.734 AM UCM:1196 8 ERROR VPN profile is empty 
+
+04/02/09 08:05:07.046 AM UCM:1192 5 ERROR VPN profile is empty 
+
+05/02/09 08:08:35.444 AM UCM:1208 9 ERROR VPN profile is empty 
+
+06/02/09 08:09:37.224 AM UCM:1432 3 ERROR VPN profile is empty 
+
+09/02/09 08:08:12.325 AM UCM:1248 8 ERROR VPN profile is empty 
+
+09/02/09 04:50:07.761 PM UCM:616 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+10/02/09 08:07:12.190 AM UCM:1272 3 ERROR VPN profile is empty 
+
+11/02/09 08:05:57.640 AM UCM:1244 8 ERROR VPN profile is empty 
+
+11/02/09 11:33:29.492 AM UCM:1236 8 ERROR VPN profile is empty 
+
+12/02/09 08:08:37.468 AM UCM:1240 8 ERROR VPN profile is empty 
+
+13/02/09 08:07:59.359 AM UCM:1228 5 ERROR VPN profile is empty 
+
+16/02/09 08:11:04.445 AM UCM:1264 8 ERROR VPN profile is empty 
+
+17/02/09 08:06:22.218 AM UCM:1264 9 ERROR VPN profile is empty 
+
+18/02/09 08:03:12.890 AM UCM:1240 10 ERROR VPN profile is empty 
+
+19/02/09 08:09:18.662 AM UCM:1224 10 ERROR VPN profile is empty 
+
+20/02/09 08:05:47.941 AM UCM:1236 8 ERROR VPN profile is empty 
+
+23/02/09 08:01:59.737 AM UCM:1284 3 ERROR VPN profile is empty 
+
+24/02/09 08:06:27.943 AM UCM:1200 8 ERROR VPN profile is empty 
+
+24/02/09 10:13:15.555 AM UCM:432 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+25/02/09 08:04:31.372 AM UCM:1256 3 ERROR VPN profile is empty 
+
+26/02/09 08:03:56.746 AM UCM:1236 5 ERROR VPN profile is empty 
+
+27/02/09 08:04:50.055 AM UCM:1220 5 ERROR VPN profile is empty 
+
+02/03/09 07:56:54.687 AM UCM:1204 3 ERROR VPN profile is empty 
+
+03/03/09 08:15:08.211 AM UCM:1232 7 ERROR VPN profile is empty 
+
+04/03/09 08:01:59.469 AM UCM:760 3 ERROR Command Timeout: 5 seconds
+<?xml version="1.0" encoding="utf-8"?>
+<SMApplicationMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TypeId="GetSystemConfiguration" ClientID="ALLEN-LAPTOP|0|1024" Username="afeuling" Timestamp="2009-03-04T08:01:40.7756676-07:00" CommandToken="1545452456">
+  <key />
+</SMApplicationMessage> 
+
+04/03/09 08:01:59.753 AM UCM:764 10 ERROR Cannot find Wait Handle for Request ID: GetSystemConfiguration1545452456. It might have been removed due to timeout. 
+
+04/03/09 08:02:27.936 AM UCM:1244 8 ERROR VPN profile is empty 
+
+05/03/09 08:02:53.640 AM UCM:1200 7 ERROR VPN profile is empty 
+
+06/03/09 08:06:08.110 AM UCM:1276 8 ERROR VPN profile is empty 
+
+09/03/09 08:06:04.664 AM UCM:1256 10 ERROR VPN profile is empty 
+
+10/03/09 08:02:23.803 AM UCM:1232 8 ERROR VPN profile is empty 
+
+10/03/09 08:33:17.093 AM UCM:1240 3 ERROR VPN profile is empty 
+
+11/03/09 08:04:06.119 AM UCM:1268 10 ERROR VPN profile is empty 
+
+12/03/09 08:02:12.921 AM UCM:760 3 ERROR Command Timeout: 5 seconds
+<?xml version="1.0" encoding="utf-8"?>
+<SMApplicationMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TypeId="GetSystemConfiguration" ClientID="ALLEN-LAPTOP|0|1176" Username="afeuling" Timestamp="2009-03-12T08:01:51.296875-07:00" CommandToken="1360583859">
+  <key />
+</SMApplicationMessage> 
+
+12/03/09 08:02:13.281 AM UCM:640 10 ERROR Cannot find Wait Handle for Request ID: GetSystemConfiguration1360583859. It might have been removed due to timeout. 
+
+12/03/09 08:02:47.046 AM UCM:1252 3 ERROR VPN profile is empty 
+
+13/03/09 08:09:13.062 AM UCM:1316 8 ERROR VPN profile is empty 
+
+16/03/09 08:02:25.989 AM UCM:1268 3 ERROR VPN profile is empty 
+
+17/03/09 08:01:55.890 AM UCM:1276 3 ERROR VPN profile is empty 
+
+18/03/09 08:06:33.918 AM UCM:1252 3 ERROR VPN profile is empty 
+
+19/03/09 08:06:34.719 AM UCM:1288 11 ERROR VPN profile is empty 
+
+19/03/09 04:51:27.588 PM UCM:1364 8 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+20/03/09 08:09:36.984 AM UCM:1284 11 ERROR VPN profile is empty 
+
+23/03/09 08:05:22.140 AM UCM:1264 12 ERROR VPN profile is empty 
+
+24/03/09 08:06:56.209 AM UCM:1280 8 ERROR VPN profile is empty 
+
+25/03/09 08:02:15.953 AM UCM:1204 5 ERROR VPN profile is empty 
+
+26/03/09 08:08:23.781 AM UCM:1252 10 ERROR VPN profile is empty 
+
+27/03/09 08:13:14.212 AM UCM:1236 5 ERROR VPN profile is empty 
+
+30/03/09 08:05:25.209 AM UCM:1252 10 ERROR VPN profile is empty 
+
+31/03/09 08:03:15.472 AM UCM:1192 3 ERROR VPN profile is empty 
+
+01/04/09 08:04:56.281 AM UCM:1240 3 ERROR VPN profile is empty 
+
+02/04/09 07:57:32.616 AM UCM:1236 7 ERROR VPN profile is empty 
+
+03/04/09 08:00:17.174 AM UCM:1268 10 ERROR VPN profile is empty 
+
+06/04/09 08:08:38.116 AM UCM:548 10 ERROR VPN profile is empty 
+
+07/04/09 08:02:54.483 AM UCM:1232 7 ERROR VPN profile is empty 
+
+08/04/09 07:59:40.375 AM UCM:1252 7 ERROR VPN profile is empty 
+
+09/04/09 08:01:46.578 AM UCM:1324 8 ERROR VPN profile is empty 
+
+10/04/09 08:03:15.171 AM UCM:1212 8 ERROR VPN profile is empty 
+
+13/04/09 08:03:27.462 AM UCM:1256 5 ERROR VPN profile is empty 
+
+14/04/09 08:00:34.213 AM UCM:1308 8 ERROR VPN profile is empty 
+
+15/04/09 08:07:05.270 AM UCM:1264 8 ERROR VPN profile is empty 
+
+16/04/09 08:02:52.781 AM UCM:1236 9 ERROR VPN profile is empty 
+
+16/04/09 08:16:43.308 AM UCM:1304 11 ERROR VPN profile is empty 
+
+20/04/09 08:00:01.621 AM UCM:1180 3 ERROR VPN profile is empty 
+
+21/04/09 08:13:32.875 AM UCM:1240 8 ERROR VPN profile is empty 
+
+23/04/09 11:19:01.561 AM UCM:1176 5 ERROR VPN profile is empty 
+
+30/04/09 08:14:30.206 AM UCM:1232 9 ERROR VPN profile is empty 
+
+30/04/09 08:36:13.319 AM UCM:528 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+05/05/09 07:51:50.678 AM UCM:1248 10 ERROR VPN profile is empty 
+
+13/05/09 08:02:35.968 AM UCM:1244 8 ERROR VPN profile is empty 
+
+15/05/09 10:39:23.142 AM UCM:1404 10 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+18/05/09 08:14:18.908 AM UCM:1264 3 ERROR VPN profile is empty 
+
+19/05/09 02:54:17.403 PM UCM:360 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+21/05/09 08:05:47.250 AM UCM:1256 5 ERROR VPN profile is empty 
+
+26/05/09 08:07:57.759 AM UCM:1224 10 ERROR VPN profile is empty 
+
+01/06/09 08:02:11.487 AM UCM:776 10 ERROR Cannot find Wait Handle for Request ID: GetSystemConfiguration293868300. It might have been removed due to timeout. 
+
+01/06/09 08:02:12.234 AM UCM:780 3 ERROR Command Timeout: 5 seconds
+<?xml version="1.0" encoding="utf-8"?>
+<SMApplicationMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TypeId="GetSystemConfiguration" ClientID="ALLEN-LAPTOP|0|2144" Username="afeuling" Timestamp="2009-06-01T08:01:51.4729642-07:00" CommandToken="293868300">
+  <key />
+</SMApplicationMessage> 
+
+01/06/09 08:02:40.786 AM UCM:1268 8 ERROR VPN profile is empty 
+
+05/06/09 08:08:40.343 AM UCM:1272 12 ERROR VPN profile is empty 
+
+08/06/09 08:03:18.609 AM UCM:780 3 ERROR Command Timeout: 5 seconds
+<?xml version="1.0" encoding="utf-8"?>
+<SMApplicationMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TypeId="GetSystemConfiguration" ClientID="ALLEN-LAPTOP|0|2344" Username="afeuling" Timestamp="2009-06-08T08:02:56.921875-07:00" CommandToken="981975452">
+  <key />
+</SMApplicationMessage> 
+
+08/06/09 08:03:22.203 AM UCM:708 10 ERROR Cannot find Wait Handle for Request ID: GetSystemConfiguration981975452. It might have been removed due to timeout. 
+
+08/06/09 08:03:53.859 AM UCM:512 7 ERROR VPN profile is empty 
+
+09/06/09 05:53:09.877 PM UCM:664 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+10/06/09 08:01:44.672 AM UCM:1308 3 ERROR VPN profile is empty 
+
+11/06/09 08:23:10.890 AM UCM:1216 8 ERROR VPN profile is empty 
+
+15/06/09 08:10:24.366 AM UCM:1236 10 ERROR VPN profile is empty 
+
+16/06/09 01:20:16.893 PM UCM:436 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+22/06/09 08:09:00.649 AM UCM:816 3 ERROR Command Timeout: 5 seconds
+<?xml version="1.0" encoding="utf-8"?>
+<SMApplicationMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TypeId="GetSystemConfiguration" ClientID="ALLEN-LAPTOP|0|2436" Username="afeuling" Timestamp="2009-06-22T08:08:36.5358612-07:00" CommandToken="166587120">
+  <key />
+</SMApplicationMessage> 
+
+22/06/09 08:09:04.253 AM UCM:864 12 ERROR Cannot find Wait Handle for Request ID: GetSystemConfiguration166587120. It might have been removed due to timeout. 
+
+22/06/09 08:09:29.542 AM UCM:544 14 ERROR VPN profile is empty 
+
+23/06/09 08:18:08.410 AM UCM:1200 3 ERROR VPN profile is empty 
+
+30/06/09 08:22:02.403 AM UCM:1168 3 ERROR VPN profile is empty 
+
+06/07/09 08:00:36.827 AM UCM:1260 9 ERROR VPN profile is empty 
+
+13/07/09 07:58:29.348 AM UCM:612 3 ERROR Command Timeout: 5 seconds
+<?xml version="1.0" encoding="utf-8"?>
+<SMApplicationMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" TypeId="GetSystemConfiguration" ClientID="ALLEN-LAPTOP|0|2224" Username="afeuling" Timestamp="2009-07-13T07:58:09.3091768-07:00" CommandToken="689061730">
+  <key />
+</SMApplicationMessage> 
+
+13/07/09 07:58:29.680 AM UCM:756 8 ERROR Cannot find Wait Handle for Request ID: GetSystemConfiguration689061730. It might have been removed due to timeout. 
+
+13/07/09 07:59:04.333 AM UCM:1224 7 ERROR VPN profile is empty 
+
+17/07/09 03:06:22.844 PM UCM:1336 7 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+20/07/09 08:06:41.061 AM UCM:1268 3 ERROR VPN profile is empty 
+
+23/07/09 09:32:26.801 AM UCM:1248 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+27/07/09 08:02:59.809 AM UCM:1288 10 ERROR VPN profile is empty 
+
+28/07/09 09:10:29.557 AM UCM:660 4 ERROR An existing connection was forcibly closed by the remote host
+   Stack trace:    at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at SmithMicro.Common.SocketPort.SocketReadCallback(IAsyncResult asyncResult)
+ 
+
+29/07/09 08:08:39.239 AM UCM:1320 5 ERROR VPN profile is empty 
+
+30/07/09 09:40:10.776 AM UCM:1212 5 ERROR VPN profile is empty 
+
+04/08/09 03:46:47.317 PM UCM:1264 3 ERROR VPN profile is empty 
+
+04/08/09 04:30:19.203 PM UCM:1260 3 ERROR VPN profile is empty 
+
+07/08/09 09:11:29.281 AM UCM:1340 3 ERROR VPN profile is empty 
+
+10/08/09 08:04:51.656 AM UCM:1268 10 ERROR VPN profile is empty 
+
